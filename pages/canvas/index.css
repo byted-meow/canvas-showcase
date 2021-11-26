@@ -1,0 +1,44 @@
+.canvas-layout-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.canvas-absolute-wrapper {
+  touch-action: none;
+  user-select: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0;
+  top: 0;
+}
+
+.canvas-inner-wrapper {
+  position: relative;
+}
+
+.canvas-inner-wrapper.locked {
+  pointer-events: none;
+}
+
+.canvas-inner-wrapper.hidden {
+  visibility: hidden;
+}
+
+.cache-canvas, .main-canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.cache-canvas {
+  visibility: hidden;
+}
+
+.canvas-child-container {
+  position: relative;
+}
+
+.canvas-child-container.canvas-state-normal {
+  pointer-events: none;
+}

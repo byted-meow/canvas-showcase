@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@tippyjs/react": "^4.2.5",
+    "clsx": "^1.1.1",
+    "react": "^17.0.1",
+    "react-color": "^2.19.3",
+    "react-dom": "^17.0.1",
+    "react-draggable": "^4.4.4",
+    "resize-detector": "^0.3.0",
+    "tinycolor2": "^1.4.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "@types/node": "^14",
+    "@types/offscreencanvas": "^2019.6.4",
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "@types/tinycolor2": "^1.4.3",
+    "typescript": "^4"
+  }
+}
